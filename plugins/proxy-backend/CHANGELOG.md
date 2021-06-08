@@ -1,5 +1,13 @@
 # @backstage/plugin-proxy-backend
 
+## 0.2.9
+
+### Patch Changes
+
+- 875809a59: Fixed proxy requests to the base URL of routes without a trailing slash redirecting to the `target` with the full path appended.
+- Updated dependencies [92963779b]
+  - @backstage/backend-common@0.8.2
+
 ## 0.2.8
 
 ### Patch Changes

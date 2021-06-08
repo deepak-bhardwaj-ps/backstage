@@ -1,5 +1,49 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.11.6
+
+### Patch Changes
+
+- 27a9b503a: Introduce conditional steps in scaffolder templates.
+
+  A step can now include an `if` property that only executes a step if the
+  condition is truthy. The condition can include handlebar templates.
+
+  ```yaml
+  - id: register
+      if: '{{ not parameters.dryRun }}'
+      name: Register
+      action: catalog:register
+      input:
+      repoContentsUrl: '{{ steps.publish.output.repoContentsUrl }}'
+      catalogInfoPath: '/catalog-info.yaml'
+  ```
+
+  Also introduces a `not` helper in handlebar templates that allows to negate
+  boolean expressions.
+
+- 55a253de2: Migrating old `backstage.io/v1alpha1` templates to `backstage.io/v1beta2`
+
+  Deprecating the `create-react-app` Template. We're planning on removing the `create-react-app` templater, as it's been a little tricky to support and takes 15mins to run in a container. We've currently cached a copy of the output for `create-react-app` and ship that under our sample templates folder. If you want to continue using it, we suggest copying the template out of there and putting it in your own repository as it will be removed in upcoming releases.
+
+  We also recommend removing this entry from your `app-config.yaml` if it exists:
+
+  ```diff
+  -    - type: url
+  -      target: https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend/sample-templates/create-react-app/template.yaml
+  -      rules:
+  -        - allow: [Template]
+  ```
+
+- f26e6008f: Add `debug:log` action for debugging.
+- 4f8cf50fe: Update gitbeaker past the broken version without a dist folder
+- Updated dependencies [92963779b]
+- Updated dependencies [27a9b503a]
+- Updated dependencies [70bc30c5b]
+  - @backstage/backend-common@0.8.2
+  - @backstage/catalog-model@0.8.2
+  - @backstage/catalog-client@0.3.13
+
 ## 0.11.5
 
 ### Patch Changes

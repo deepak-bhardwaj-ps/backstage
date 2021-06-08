@@ -1,30 +1,9 @@
-# @backstage/plugin-search-backend-node
+# @backstage/search-common
 
-## 0.1.5
+## 0.1.2
 
 ### Patch Changes
 
 - db1c8f93b: The `<Search...Next /> set of components exported by the Search Plugin are now updated to use the Search Backend API. These will be made available as the default non-"next" versions in a follow-up release.
 
   The interfaces for decorators and collators in the Search Backend have also seen minor, breaking revisions ahead of a general release. If you happen to be building on top of these interfaces, check and update your implementations accordingly. The APIs will be considered more stable in a follow-up release.
-
-- Updated dependencies [db1c8f93b]
-  - @backstage/search-common@0.1.2
-
-## 0.1.4
-
-### Patch Changes
-
-- e1e757569: Introduced Scheduler which is responsible for adding new tasks to a schedule together with it's interval timer as well as starting and stopping the scheduler processes.
-
-## 0.1.3
-
-### Patch Changes
-
-- b9b2b4b76: Lunr Search Engine support
-
-## 0.1.2
-
-### Patch Changes
-
-- 4d248725e: Bump to use the in-repo latest `backend-common`, and the correct version of `express-promise-router`
