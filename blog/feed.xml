@@ -4,7 +4,7 @@
         <title>Backstage Software Catalog and Developer Platform Blog</title>
         <link>https://backstage.io/blog</link>
         <description>The best place to stay up-to-date with the latest Backstage Software Catalog and Developer Platform news and events.</description>
-        <lastBuildDate>Mon, 26 Jul 2021 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Sep 2021 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,25 @@
             <link>https://backstage.io/blog</link>
         </image>
         <copyright>Copyright © 2021 Backstage Project Authors. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our Trademark Usage page: https://www.linuxfoundation.org/trademark-usage</copyright>
+        <item>
+            <title><![CDATA[The Big 5-0]]></title>
+            <link>https://backstage.io/blog/2021/09/30/50-public-adopters.html</link>
+            <guid>https://backstage.io/blog/2021/09/30/50-public-adopters.html</guid>
+            <pubDate>Thu, 30 Sep 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>We’re excited to celebrate an important milestone for the Backstage community: 50+ <a href="https://github.com/backstage/backstage/blob/master/ADOPTERS.md">public adopters</a>!</p>
+<p><img src="/blog/assets/21-09-30/50-public-adopters.png" alt="Celebrating all of Backstage’s 50+ adopters."></p>
+<p>Before digging into why we believe this is so important, we want to send a huge “thank you” to all the Backstage adopters and contributors who have helped grow the Backstage community. First, to the publicly listed adopters as your visible support for the project excites others to learn more about Backstage. Second, to those non-listed adopters, many of whom still engage in the community via issues, comments, or code contributions. Thank you!</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The TechDocs Beta has landed]]></title>
+            <link>https://backstage.io/blog/2021/09/16/the-techdocs-beta-has-landed.html</link>
+            <guid>https://backstage.io/blog/2021/09/16/the-techdocs-beta-has-landed.html</guid>
+            <pubDate>Thu, 16 Sep 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/blog/assets/21-09-16/backstage-techdocs-beta.gif" alt="TechDocs in Beta"></p>
+<p><strong>TLDR:</strong> Another beta has landed! We continue to focus on improving the stability and scalability of Backstage while enhancing its functionality. Thanks to focused efforts from the TechDocs core team and community, we're happy to say that TechDocs — <a href="https://backstage.io/blog/2020/09/08/announcing-tech-docs">our docs-like-code solution</a> for all the software in your catalog — is now, after <a href="https://backstage.io/blog/2021/07/26/software-templates-are-now-in-beta">Software Templates</a>, the second core feature to graduate to beta.</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[Software Templates is now in Beta]]></title>
             <link>https://backstage.io/blog/2021/07/26/software-templates-are-now-in-beta.html</link>
@@ -23,7 +42,7 @@
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[Announcing the Backstage Search platform: a customizable search tool built just for you]]></title>
+            <title><![CDATA['Announcing the Backstage Search platform: a customizable search tool built just for you']]></title>
             <link>https://backstage.io/blog/2021/06/24/announcing-backstage-search-platform.html</link>
             <guid>https://backstage.io/blog/2021/06/24/announcing-backstage-search-platform.html</guid>
             <pubDate>Thu, 24 Jun 2021 06:00:00 GMT</pubDate>
@@ -55,7 +74,7 @@
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[New Backstage feature: Kubernetes for Service owners]]></title>
+            <title><![CDATA['New Backstage feature: Kubernetes for Service owners']]></title>
             <link>https://backstage.io/blog/2021/01/12/new-backstage-feature-kubernetes-for-service-owners.html</link>
             <guid>https://backstage.io/blog/2021/01/12/new-backstage-feature-kubernetes-for-service-owners.html</guid>
             <pubDate>Tue, 12 Jan 2021 06:00:00 GMT</pubDate>
@@ -74,7 +93,7 @@
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[New Cost Insights plugin: The engineer’s solution to taming cloud costs]]></title>
+            <title><![CDATA['New Cost Insights plugin: The engineer’s solution to taming cloud costs']]></title>
             <link>https://backstage.io/blog/2020/10/22/cost-insights-plugin.html</link>
             <guid>https://backstage.io/blog/2020/10/22/cost-insights-plugin.html</guid>
             <pubDate>Thu, 22 Oct 2020 06:00:00 GMT</pubDate>
@@ -113,7 +132,7 @@
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[Announcing TechDocs: Spotify’s docs-like-code plugin for Backstage]]></title>
+            <title><![CDATA['Announcing TechDocs: Spotify’s docs-like-code plugin for Backstage']]></title>
             <link>https://backstage.io/blog/2020/09/08/announcing-tech-docs.html</link>
             <guid>https://backstage.io/blog/2020/09/08/announcing-tech-docs.html</guid>
             <pubDate>Tue, 08 Sep 2020 06:00:00 GMT</pubDate>
@@ -152,7 +171,7 @@
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[Starting Phase 2: The Service Catalog]]></title>
+            <title><![CDATA['Starting Phase 2: The Service Catalog']]></title>
             <link>https://backstage.io/blog/2020/05/22/phase-2-service-catalog.html</link>
             <guid>https://backstage.io/blog/2020/05/22/phase-2-service-catalog.html</guid>
             <pubDate>Fri, 22 May 2020 06:00:00 GMT</pubDate>
